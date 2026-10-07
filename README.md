@@ -30,7 +30,7 @@ Blog post with more background: _link coming soon_
 
 ![Installed piece](docs/images/installation.jpg)
 
-To recreate the mount: cut a 24 × 14 mm window in card stock, paint the spiral out from the window, and tape the board behind it with the USB-C port facing down so a cable (or a small power bank taped to the back) can power it.
+To recreate the mount: cut a 24 × 14 mm window in card stock, paint the spiral out from the window, and tape the board behind it with corresponding battery for the display used. 
 
 ## Replicate it
 
