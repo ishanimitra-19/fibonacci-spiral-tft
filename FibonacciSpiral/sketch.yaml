@@ -1,0 +1,2 @@
+default_fqbn: esp32:esp32:esp32:UploadSpeed=115200,PSRAM=disabled,FlashSize=4M
+default_port: /dev/cu.usbserial-5C491300031
