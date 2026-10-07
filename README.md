@@ -4,6 +4,8 @@ Generative art for the LilyGO TTGO T-Display (ESP32 + 1.14" ST7789, 135×240). E
 
 ![Demo](docs/images/demo.gif)
 
+*The T-Display running the sketch, mounted in a hand-painted spiral card.*
+
 Blog post with more background: _link coming soon_
 
 ## Design goals
@@ -29,6 +31,14 @@ Blog post with more background: _link coming soon_
 | Optional: power bank / wall charger | the sketch runs standalone once flashed |
 
 No wiring is needed; the display is built into the board.
+
+## Installation
+
+The board sits in a cutout in the centre of a hand-painted card whose concentric spiral echoes the one on screen, so the tiny display reads as the "eye" of a much larger spiral. The card hangs from two strings so it can be viewed from either side and sways slightly, which suits the ever-changing animation.
+
+![Installed piece](docs/images/installation.jpg)
+
+To recreate the mount: cut a 24 × 14 mm window in card stock, paint the spiral out from the window, and tape the board behind it with the USB-C port facing down so a cable (or a small power bank taped to the back) can power it.
 
 ## Replicate it
 
