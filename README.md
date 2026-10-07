@@ -1,6 +1,6 @@
 # Fibonacci Spiral Fractal for the TTGO T-Display
 
-Generative art for the LilyGO TTGO T-Display (ESP32 + 1.14" ST7789, 135×240). Each cycle the sketch tiles a golden rectangle into Fibonacci squares, draws a smooth golden spiral through them, and randomly grows smaller spirals inside the squares so the piece becomes a self-similar fractal. Palette, orientation, line weight, recursion depth and animation speed are re-rolled every cycle, so it never repeats.
+Generative art for the LilyGO TTGO T-Display ESP32. The code behind this art follows the fibonacci sequence, where each cycle sketches a rectangle, into squares, and then draws the golden spiral through them. The code adjusts the color palette, line weight, orientation, animation speed, and recursive depth of the art, to keep it from repeating. However, despite each frame being different, all the frames stay faithful to the classic fibonacci pattern, where the spiral randomly grows and creates smaller spirals, becoming self similar fractal art. 
 
 ![Demo](docs/images/demo.gif)
 
@@ -10,11 +10,10 @@ Blog post with more background: _link coming soon_
 
 ## Design goals
 
-- **Grow, don't loop.** The spiral is drawn square by square so you watch it form, rather than appearing as a finished frame.
-- **Math you can see.** Every square is a true golden-ratio subdivision, and each quarter arc is centred on the corner that keeps the curve tangent-continuous, so the spiral is a real Fibonacci spiral and not an approximation.
+- **Growing spiral that doesn't loop.** The spiral is drawn square by square so you watch it form. 
+- **Mathematical authenticity.** Every square stays true to the mathematics behind the golden ratio, where each quarter arc is centered on the corner, keeping the curve tangent continuous.
 - **Never the same twice.** Colour palette, mirror orientation, line width, fractal depth (1–3 levels), spawn probability and drawing speed are all drawn from `random()` each cycle. This satisfies the "more than a GIF" requirement for Module 1.
-- **Clean lines on a tiny screen.** Arcs use TFT_eSPI's anti-aliased `drawWideLine`, which matters a lot at 135 px tall.
-
+  
 ## How it works
 
 1. `newCycle()` rolls the random parameters and clears the screen.
@@ -27,14 +26,7 @@ Blog post with more background: _link coming soon_
 | Part | Notes |
 |---|---|
 | LilyGO TTGO T-Display | ESP32, ST7789 135×240 TFT, USB-C |
-| USB-C cable | data-capable, for uploading |
-| Optional: power bank / wall charger | the sketch runs standalone once flashed |
-
-No wiring is needed; the display is built into the board.
-
-## Installation
-
-The board sits in a cutout in the centre of a hand-painted card whose concentric spiral echoes the one on screen, so the tiny display reads as the "eye" of a much larger spiral. The card hangs from two strings so it can be viewed from either side and sways slightly, which suits the ever-changing animation.
+| USB-C cable | Battery Attachment|
 
 ![Installed piece](docs/images/installation.jpg)
 
@@ -85,4 +77,4 @@ docs/images/          demo GIF and installation photos
 
 ## Credits
 
-Built for COMS 3930 (Fall 2026) at Columbia. Uses [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) by Bodmer.
+Built for COMS 3930 (Fall 2026) at Columbia. Uses [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) 
