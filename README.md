@@ -63,7 +63,7 @@ All the knobs live in `newCycle()`:
 
 | Variable | Effect |
 |---|---|
-| `baseHue`, `hueStep` | starting colour and how fast colour shifts per square |
+| `baseHue`, `hueStep` | starting color and how fast color shifts per square |
 | `maxDepth` | how many levels of nested spirals (1 = plain spiral) |
 | `spawnChance` | % chance a square grows a child spiral |
 | `lineW` | arc thickness in pixels |
