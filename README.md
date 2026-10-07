@@ -30,7 +30,7 @@ Blog post with more background: _link coming soon_
 
 ![Installed piece, front](docs/images/front-hanging.jpg)
 
-*Front: the display sits in a window cut in the centre of the hand-painted spiral card, hung from two strings.*
+*Front: the display sits in a window cut in the centre of the hand-colored spiral card, hung from two strings.*
 
 ![Back of the card with board and battery](docs/images/back-battery.jpg)
 
