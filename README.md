@@ -28,7 +28,13 @@ Blog post with more background: _link coming soon_
 | LilyGO TTGO T-Display | ESP32, ST7789 135×240 TFT, USB-C |
 | USB-C cable | Battery Attachment|
 
-![Installed piece](docs/images/installation.jpg)
+![Installed piece, front](docs/images/front-hanging.jpg)
+
+*Front: the display sits in a window cut in the centre of the hand-painted spiral card, hung from two strings.*
+
+![Back of the card with board and battery](docs/images/back-battery.jpg)
+
+*Back: the T-Display and a 3.7 V 600 mAh LiPo (JST connector) taped behind the card so it runs untethered.*
 
 To recreate the mount: cut a 24 × 14 mm window in card stock, paint the spiral out from the window, and tape the board behind it with corresponding battery for the display used. 
 
