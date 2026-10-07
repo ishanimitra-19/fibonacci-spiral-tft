@@ -2,6 +2,8 @@
 
 Generative art for the LilyGO TTGO T-Display ESP32. The code behind this art follows the fibonacci sequence, where each cycle sketches a rectangle, into squares, and then draws the golden spiral through them. The code adjusts the color palette, line weight, orientation, animation speed, and recursive depth of the art, to keep it from repeating. However, despite each frame being different, all the frames stay faithful to the classic fibonacci pattern, where the spiral randomly grows and creates smaller spirals, becoming self similar fractal art. 
 
+# Blog Post Link : https://ishanimitra-19.github.io/CES-ishanimitra.github.io/module1.html
+
 ![Demo](docs/images/demo.gif)
 
 *The T-Display running the sketch, mounted in a hand-colored spiral card.*
