@@ -78,3 +78,4 @@ docs/images/          demo GIF and installation photos
 ## Credits
 
 Built for COMS 3930 (Fall 2026) at Columbia. Uses [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) 
+Claude Fable 5.1 
