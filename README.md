@@ -4,7 +4,7 @@ Generative art for the LilyGO TTGO T-Display ESP32. The code behind this art fol
 
 ![Demo](docs/images/demo.gif)
 
-*The T-Display running the sketch, mounted in a hand-painted spiral card.*
+*The T-Display running the sketch, mounted in a hand-colored spiral card.*
 
 Blog post with more background: _link coming soon_
 
